@@ -2,14 +2,10 @@
 import streamlit as st
 import pickle
 import re
-import nltk
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 import plotly.io as pio
-
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
 
 # ==========================================================
 # NLTK
