@@ -280,7 +280,7 @@ with st.sidebar:
 @st.cache_resource
 def load_model():
 
-    with open("D:\\data_science_repo\\Amazon_Alexa_Sentiment_Analysis\\model.pkl", "rb") as f:
+    with open("model.pkl", "rb") as f:
         model = pickle.load(f)
 
     with open("D:\\data_science_repo\\Amazon_Alexa_Sentiment_Analysis\\cv.pkl", "rb") as f:
