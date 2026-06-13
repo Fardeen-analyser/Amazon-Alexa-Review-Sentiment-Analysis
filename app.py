@@ -391,7 +391,7 @@ if analyze:
     st.markdown("---")
     st.subheader("📈 Analysis Result")
 
-    if prediction == 1:
+    if prediction == 0:
 
         st.markdown("""
         <div class="result-positive">
